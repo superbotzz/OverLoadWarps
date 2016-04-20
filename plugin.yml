@@ -1,0 +1,11 @@
+main: BrannonBlair.github.com.WarpGUI
+version: 1.0
+name: WarpGUI
+depend: [Essentials]
+
+commands: 
+    warp:
+        description: Open the menu.
+permissions:
+    warps.gui:
+        default: op
