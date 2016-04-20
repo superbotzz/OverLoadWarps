@@ -1,0 +1,48 @@
+# - Custom Warp GUI
+# - Author Joel
+# - Skype: *Private*
+# - All item names must be in caps, and the Material.[item] version.
+# - List your warps with a ',' in between to begin the configuration.
+# - Warp_Amount chooses how big of a GUI to create. Put in the exact number of 
+# warps you have!
+# - Each Warp in the list NEEDS a Warp Config!
+# - Post errors on the thread forum, with a pastebin of the error!
+########MAIN MENU########
+No_Permission:
+  item: 'STAINED_GLASS_PANE'
+  damage_value: 15
+Close_Tab:
+  item: 'PAPER'
+  damage_value: 0
+
+Warp_Amount: 2
+Warps:
+  List: 'Shop,FPS'
+  
+#######Warp Config#######
+#spawn:                             //Warp Name from above. Case sensitive
+#  item: 'STONE_SWORD'              //Item for the Warp In GUI
+#  damage_value: 0                  //Damage value of the item (for other colors of same item)
+#  Warp_Name_Color: '&b'            //Unlocked Name of Warp Color
+#  Locked_Name_Color: '&c'          //Locked Name of Warp Color
+#  Lore_Amount: 3                   //Amount of lines of of lore
+#  Lore_1:                          //Lore Line 1
+#  Lore_2:                          //Lore Line 2, change the number as you add more.
+#  Lore_3:                          //The number of lines must go to Lore Amount.
+########################
+
+Shop:
+  item: 'DIAMOND'
+  damage_value: 0
+  Warp_Name_Color: '&2'
+  Locked_Name_Color: '&c'
+  Lore_Amount: 1
+  Lore_1: '&bGo To Our Shop!'
+
+FPS:
+  item: 'DIAMOND_SWORD'
+  damage_value: 0
+  Warp_Name_Color: '&c'
+  Locked_Name_Color: '&c'
+  Lore_Amount: 1
+  Lore_1: '&bFight In A Very Small Enclosed Area!'
